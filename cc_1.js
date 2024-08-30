@@ -30,4 +30,14 @@ console.log(accountBalance);
 accountBalance %= 100;
 console.log(accountBalance);
 
+//Comparison Operators
+let employeeScore1 = 87;
+let employeeScore2 = 94;
+console.log(employeeScore1 > employeeScore2);
+console.log(employeeScore1 < employeeScore2);
+console.log(employeeScore1 >= employeeScore2);
+console.log(employeeScore1 <= employeeScore2);
+console.log(employeeScore1 !== employeeScore2);
+console.log(employeeScore1 === employeeScore2);
+
 
