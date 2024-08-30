@@ -40,4 +40,13 @@ console.log(employeeScore1 <= employeeScore2);
 console.log(employeeScore1 !== employeeScore2);
 console.log(employeeScore1 === employeeScore2);
 
+//Logical Operators
+let hasKeyCard = true;
+let hasPermission = false;
+let allAccess = hasKeyCard && hasPermission;
+let visitorAccess = hasKeyCard || hasPermission;
+let noAccess = !visitorAccess && !allAccess;
+console.log("has all access", allAccess,"has visitor access", visitorAccess,"has no access", noAccess); 
+
+
 
