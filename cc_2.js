@@ -6,10 +6,17 @@ let total = (tip+bill);
 console.log("The bill was $"+ bill, "the tip was $"+ tip, "and the total value was $"+ total);//display all 3 calcs
 
 function calculateTip(x) {
-if(50<=x<=300) return (x*0.15);//create if else statmenet for conditionals
-else return (x*0.20);
+if (x>=50 && x<=300) {
+   return x*0.15 
 }
-console.log(calculateTip(100));
+else {return x*0.2}//if else statement to make conditional
+}
+
+console.log(calculateTip(100));//output 15
+
+
+
+
 
 
 
