@@ -28,3 +28,10 @@ else if (avg < 4000){
 }
 let rating = determinePerformanceRating(salesFigures);
 console.log(rating);
+
+
+function findTopAndBottomPerformers(x){
+
+}
+let employees = [{name: "JIm", sales:4500}, {name: "Billy", sales: 8400}, {name: "Samantha",sales: 6700}];
+console.log(findTopAndBottomPerformers(employees));
